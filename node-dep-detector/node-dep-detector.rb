@@ -1,6 +1,6 @@
 class NodeDepDetector < Formula
   desc "A command-line tool to detect unused Node.js dependencies"
-  homepage "https://github.com/tariqule/node-dep-detector"
+  homepage "https://github.com/tariqule/homebrew-formulas/"
   url "https://github.com/tariqule/homebrew-formulas/archive/refs/tags/v1.tar.gz"
   sha256 "<SHA-256 hash of the release tarball>"
   license "MIT"
