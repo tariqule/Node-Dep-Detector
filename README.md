@@ -21,7 +21,9 @@ $ npm link
 
 To use Node Dep Detector, simply navigate to your project directory and run the command:
 
+````
 $ node-dep-detector
+````
 
 This will print out a list of all dependencies that are installed but not being used in your project. If you want to remove these dependencies, you can use either `npm` or `yarn`:
 
