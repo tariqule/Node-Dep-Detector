@@ -6,16 +6,20 @@ Node Dep Detector is a command line tool that helps you identify unused dependen
 
 You can install Node Dep Detector using [Homebrew](https://brew.sh/) on macOS or Linux:
 
+```
 $ brew tap <your-tap>
 $ brew install node-dep-detector
+```
 
 Alternatively, you can download the source code and build it yourself:
 
+```
 $ git clone <path-to-tarball>
 $ cd node-dep-detector
 $ npm install
 $ npm run build
 $ npm link
+```
 
 ## Usage
 
@@ -27,10 +31,12 @@ $ node-dep-detector
 
 This will print out a list of all dependencies that are installed but not being used in your project. If you want to remove these dependencies, you can use either `npm` or `yarn`:
 
+```
 $ npm uninstall <package-name> # remove a single package
 $ npm prune # remove all unused packages
 $ yarn remove <package-name> # remove a single package
 $ yarn autoremove # remove all unused packages
+```
 
 ## Contributing
 
